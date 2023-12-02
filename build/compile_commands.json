@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ant/Programming/tokenizer/build",
+  "command": "/usr/bin/clang++  -I/home/ant/Programming/tokenizer/include -g -o CMakeFiles/tokenizer.dir/src/main.cpp.o -c /home/ant/Programming/tokenizer/src/main.cpp",
+  "file": "/home/ant/Programming/tokenizer/src/main.cpp"
+},
+{
+  "directory": "/home/ant/Programming/tokenizer/build",
+  "command": "/usr/bin/clang++  -I/home/ant/Programming/tokenizer/include -g -o CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o -c /home/ant/Programming/tokenizer/src/TrieBuilder.cpp",
+  "file": "/home/ant/Programming/tokenizer/src/TrieBuilder.cpp"
+}
+]
