@@ -193,4 +193,6 @@ CMakeFiles/tokenizer.dir/src/main.cpp.o: \
   /usr/lib/llvm-14/lib/clang/14.0.0/include/sanitizer/tsan_interface.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/12/../../../../include/c++/12/backward/auto_ptr.h \
   /home/ant/Programming/tokenizer/include/Trie/TrieBuidler.h \
-  /home/ant/Programming/tokenizer/include/Trie/TrieNodeCollection.h
+  /home/ant/Programming/tokenizer/include/Trie/TrieNodeCollection.h \
+  /home/ant/Programming/tokenizer/include/interfaces/IBufferChecker.h \
+  /home/ant/Programming/tokenizer/include/interfaces/../TokenBuffer.h

@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/tokenizer.dir/src/main.cpp.o CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o -o tokenizer 
+/usr/bin/clang++ -g CMakeFiles/tokenizer.dir/src/main.cpp.o CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.o CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.o -o tokenizer 

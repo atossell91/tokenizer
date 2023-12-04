@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.o"
+  "CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.o.d"
+  "CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.o"
+  "CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.o.d"
   "CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o"
   "CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o.d"
   "CMakeFiles/tokenizer.dir/src/main.cpp.o"

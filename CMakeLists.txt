@@ -10,6 +10,8 @@ include_directories(${INC})
 set(SRCS
     ${SRC}/main.cpp
     ${SRC}/TrieBuilder.cpp
+    ${SRC}/TokenBuffer.cpp
+    ${SRC}/Tokenizer.cpp
     )
 
 add_executable(tokenizer ${SRCS})

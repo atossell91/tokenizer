@@ -8,5 +8,15 @@
   "directory": "/home/ant/Programming/tokenizer/build",
   "command": "/usr/bin/clang++  -I/home/ant/Programming/tokenizer/include -g -o CMakeFiles/tokenizer.dir/src/TrieBuilder.cpp.o -c /home/ant/Programming/tokenizer/src/TrieBuilder.cpp",
   "file": "/home/ant/Programming/tokenizer/src/TrieBuilder.cpp"
+},
+{
+  "directory": "/home/ant/Programming/tokenizer/build",
+  "command": "/usr/bin/clang++  -I/home/ant/Programming/tokenizer/include -g -o CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.o -c /home/ant/Programming/tokenizer/src/TokenBuffer.cpp",
+  "file": "/home/ant/Programming/tokenizer/src/TokenBuffer.cpp"
+},
+{
+  "directory": "/home/ant/Programming/tokenizer/build",
+  "command": "/usr/bin/clang++  -I/home/ant/Programming/tokenizer/include -g -o CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.o -c /home/ant/Programming/tokenizer/src/Tokenizer.cpp",
+  "file": "/home/ant/Programming/tokenizer/src/Tokenizer.cpp"
 }
 ]

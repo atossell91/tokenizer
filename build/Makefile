@@ -129,6 +129,54 @@ tokenizer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/build
 .PHONY : tokenizer/fast
 
+src/TokenBuffer.o: src/TokenBuffer.cpp.o
+.PHONY : src/TokenBuffer.o
+
+# target to build an object file
+src/TokenBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.o
+.PHONY : src/TokenBuffer.cpp.o
+
+src/TokenBuffer.i: src/TokenBuffer.cpp.i
+.PHONY : src/TokenBuffer.i
+
+# target to preprocess a source file
+src/TokenBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.i
+.PHONY : src/TokenBuffer.cpp.i
+
+src/TokenBuffer.s: src/TokenBuffer.cpp.s
+.PHONY : src/TokenBuffer.s
+
+# target to generate assembly for a file
+src/TokenBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/TokenBuffer.cpp.s
+.PHONY : src/TokenBuffer.cpp.s
+
+src/Tokenizer.o: src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.o
+
+# target to build an object file
+src/Tokenizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.cpp.o
+
+src/Tokenizer.i: src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.i
+
+# target to preprocess a source file
+src/Tokenizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.cpp.i
+
+src/Tokenizer.s: src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.s
+
+# target to generate assembly for a file
+src/Tokenizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tokenizer.dir/build.make CMakeFiles/tokenizer.dir/src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.cpp.s
+
 src/TrieBuilder.o: src/TrieBuilder.cpp.o
 .PHONY : src/TrieBuilder.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tokenizer"
+	@echo "... src/TokenBuffer.o"
+	@echo "... src/TokenBuffer.i"
+	@echo "... src/TokenBuffer.s"
+	@echo "... src/Tokenizer.o"
+	@echo "... src/Tokenizer.i"
+	@echo "... src/Tokenizer.s"
 	@echo "... src/TrieBuilder.o"
 	@echo "... src/TrieBuilder.i"
 	@echo "... src/TrieBuilder.s"
