@@ -6,6 +6,7 @@
 
 #include "interfaces/IBufferChecker.h"
 
+#include "Token.h"
 #include "TokenBuffer.h"
 
 namespace AntSpace
@@ -13,8 +14,8 @@ namespace AntSpace
     class Tokenizer {
         private:
             TokenBuffer buffer;
-            IBufferChecker* currentChecker;
-            std::vector<std::string> tokens;
+            IStateManager* stateManager;
+            std::vector<Token> tokens;
 
         public:
 

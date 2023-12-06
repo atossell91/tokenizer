@@ -3,10 +3,10 @@
 #include "../TokenBuffer.h"
 
 namespace AntSpace {
-    class IBufferChecker {
+    class IStateManager {
         public:
-        virtual ~IBufferChecker() {}
+        virtual ~IStateManager() {}
         
-        virtual bool charAccepted(const TokenBuffer&, char) = 0;
+        virtual bool GetState() = 0;
     };
 }
